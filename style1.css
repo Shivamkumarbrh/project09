@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana,sans-serif;
+}
+/* body,h1,h2,h3{
+    font-family: "Montserrat", sans-serif;
+} */
+.navbar{
+    width: 8%;
+    background-color: #333;
+    top: 0;
+    left: 0;
+    position: fixed;
+    height: 100vh;
+}
+.navbar img{
+    margin-bottom: -7px;
+    width: 100%;
+    filter: grayscale(100%);
+    opacity: 0.5;
+}
+a{
+    z-index: 2;
+    display: block;
+    text-align: center;
+    padding: 5px 0px;
+    text-decoration: none;
+    color: white;
+}
+a i{
+    padding: 15px 0px;
+    font-size: 2em;
+}
+#first{
+    z-index: 2;
+    background-color: black;
+}
+#first:hover{
+    background-color: #aaa;
+}
+a:not(#first):hover{
+    background-color: black;
+    
+}
+.container{
+    width: 92%;
+    top: 0;
+    box-sizing: border-box;
+    position: relative;
+    /* border: 1px solid; */
+    display: flex;
+    flex-wrap: wrap;
+    left: 8%;
+    background-color: black;
+    color: white;
+}
+.main-heading{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 30px 0px;
+    text-align: center;
+}
+.main-heading h1{
+    font-size: 4em;
+    padding: 20px 0px;
+}
+.main-picture{
+    box-sizing: border-box;
+    /* border: 1px solid white; */
+    width: 70%;
+    filter: grayscale(100%);
+    margin: auto;
+}
+.main-picture img{
+    width: 100%;
+}
+.my-name{
+    width: 70%;
+    box-sizing: border-box;
+    margin:100px auto 0px auto;
+}
+.my-name h2{
+    width: 20%;
+    font-size: 2em;
+    padding: 20px 0px;
+    border-bottom: 1px solid white;
+}
+.my-name p{
+    padding: 15px 0px;
+    color: rgb(199, 199, 199);
+    text-align: justify;
+}
+.my-skills{
+    width: 70%;
+    margin: auto;
+    box-sizing: border-box;
+}
+.my-skills h2{
+    padding: 20px 0px;
+}
+.my-skills-p{
+    width: 100%;
+    margin: 15px 0px;
+    background-color: white;
+}
+#my-skills-p-first,#my-skills-p-second,#my-skills-p-third{
+    width: 90%;
+    padding: 6px 0px;
+    display: block;
+    color: #aaa;
+    background-color: #aaa;
+}
+#my-skills-p-second{
+    width: 80%;
+}
+#my-skills-p-third{
+    width: 70%;
+}
+.my-skills-box{
+    margin: 30px 0px;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f1f1f1;
+    border: 1px solid;
+}
+.my-skills-box p{
+    color: black;
+    text-align: center;
+    padding: 35px 0px;
+    width: 25%;
+    box-sizing: border-box;
+    /* border: 1px solid; */
+}
+.my-skills-box span{
+    font-weight: bold;
+    font-size: 1.5em;
+    padding: 10px 0px;
+}
+#my-skills-btn{
+    padding: 14px 20px;
+    border: none;
+    background-color: white;
+}
+#my-skills-btn i{
+    padding: 0px 5px;
+}
+.my-price{
+    box-sizing: border-box;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.my-price h2{
+    width: 100%;
+    margin: 30px 0px;
+}
+.my-price-left-box,.my-price-right-box{
+    width: 49%;
+    /* border: 1px solid; */
+    text-align: center;
+    opacity: 0.7;
+}
+.my-price-left-box:hover,.my-price-right-box:hover{
+    opacity: 1;
+}
+.my-price-left-box li,.my-price-right-box li{
+    list-style-type: none;
+    padding:15px 0px;
+    background-color:white;
+    color: black;
+    border-bottom: 1px solid rgb(206, 204, 204);
+}
+#my-price-left-box-li,#my-price-right-box-li{
+    padding: 25px 0px;
+    color: white;
+    font-size: 1.5em;
+    background-color: #333;
+}
+#my-price-left-box-last-l,#my-price-left-box-last-r{
+    background-color: #f1f1f1;
+    border-bottom: none;
+}
+.my-price-left-box-btn{
+    margin: 10px 0px;
+    padding: 15px 25px;
+    border: none;
+    background-color: white;
+}
+.my-reputation{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    padding: 20px 0px;
+    flex-wrap: wrap;
+}
+.my-reputation-first,.my-reputation-second{
+    width: 100%;
+    display: flex;
+    padding: 25px 0px;
+}
+.my-reputation-first-photo,.my-reputation-second-photo {
+    width: 10%;
+}
+.my-reputation-first-photo img,.my-reputation-second-photo img{
+    width: 80%;
+    border-radius: 50%;
+}
+.my-reputation-first-content,.my-reputation-second-content{
+    width: 80%;
+}
+.my-reputation-first-content p,.my-reputation-second-content p{
+    padding: 10px 0px;
+}

@@ -1,0 +1,72 @@
+.my-photo{
+    width: 70%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+.my-photo-box1{
+    width: 49.5%;
+    filter: grayscale(100%);
+    box-sizing: border-box;
+}
+.my-photo-box2{
+    width: 49.5%;
+    filter: grayscale(100%);
+}
+.my-photo-box1 img{
+    border: 8px solid black;
+    width: 100%;
+    margin-bottom: -7px;
+}
+.my-photo-box2 img{
+    border: 8px solid black;
+    margin-bottom: -7px;
+    width: 100%;
+}
+.my-contact{
+    padding: 50px 0px;
+    width: 70%;
+    box-sizing: border-box;
+    margin: auto;
+}
+.my-contact h1{
+    width: 20%;
+    padding: 20px 0px;
+    border-bottom: 1px solid;
+}
+.my-contact p{
+    margin: 10px 0px;
+    padding: 10px 0px;
+}
+.my-contact input{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 15px 10px;
+    margin: 10px 0px;
+    border: none;
+}
+.my-contact i{
+    padding: 0px 10px;
+    font-size: 2em;
+}
+#my-contact-btn{
+    margin: 5px 0px;
+    padding: 14px 16px;
+    border: none;
+    background-color: white;
+}
+#my-contact-btn i{
+    font-size: 1em;
+}
+footer{
+    width: 70%;
+    margin: auto;
+    padding: 55px 0px;
+}
+footer i{
+    padding: 0px 5px;
+    margin: 15px 0px;
+    font-size: 1.2em;
+}
