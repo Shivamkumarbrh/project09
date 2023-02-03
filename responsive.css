@@ -1,0 +1,78 @@
+@media screen and (max-width:992px) {
+    .navbar{
+        width: 15%;
+    }
+    .container{
+        width: 85%;
+        left: 15%;
+    }
+    
+}
+@media screen and (max-width:600px) {
+    .navbar{
+        display:block;
+        width: 100%;
+        box-sizing: border-box;
+        z-index: 2;
+        height: 100px;
+        top: 0;
+    }
+
+    .navbar a{
+        z-index: 2;
+        display: inline-block;
+        width: 23%;
+        box-sizing: border-box;
+    }
+    .navbar img{
+        display: none;
+    }
+    .navbar a i{
+        padding: 15px 0px;
+        font-size: 1.5em;
+    }
+    .container{
+        width: 100%;
+        top: 100px;
+        left: 0px;
+        background-color: black;
+        color: white;
+    }
+    .main-picture{
+        width: 90%;
+    }
+    .my-name{
+        width: 90%;
+    }
+    .my-skills{
+        width: 90%;
+    }
+    .my-skills-box p{
+        width: 100%;
+    }
+    .my-price-left-box,.my-price-right-box{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .my-reputation-first-photo,.my-reputation-second-photo {
+        width: 20%;
+    }
+    .my-reputation-first-content,.my-reputation-second-content{
+        width: 70%;
+    }
+    .my-photo{
+        width: 90%;
+    }
+    .my-photo-box1{
+        width: 98%;
+    }
+    .my-photo-box2{
+        width: 98%;
+    }
+    .my-contact{
+        width: 90%;
+    }
+    footer{
+        width: 90%;
+    }
+}

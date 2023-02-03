@@ -142,7 +142,11 @@ a:not(#first):hover{
 #my-skills-btn{
     padding: 14px 20px;
     border: none;
+    cursor: pointer;
     background-color: white;
+}
+#my-skills-btn:hover{
+    background-color: #ddd;
 }
 #my-skills-btn i{
     padding: 0px 5px;
@@ -191,6 +195,10 @@ a:not(#first):hover{
     border: none;
     background-color: white;
 }
+.my-price-left-box-btn:hover{
+    cursor: pointer;
+    background-color: #ddd;
+}
 .my-reputation{
     display: flex;
     width: 70%;
@@ -201,14 +209,18 @@ a:not(#first):hover{
 .my-reputation-first,.my-reputation-second{
     width: 100%;
     display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 25px 0px;
 }
 .my-reputation-first-photo,.my-reputation-second-photo {
     width: 10%;
 }
 .my-reputation-first-photo img,.my-reputation-second-photo img{
-    width: 80%;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
+    object-fit: cover;
 }
 .my-reputation-first-content,.my-reputation-second-content{
     width: 80%;
